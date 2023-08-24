@@ -63,10 +63,7 @@
         "How long does shipping take?",
         "When do I get my delivery?"
       ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
     },
     {
       "tag": "funny",
@@ -88,9 +85,292 @@
         "Owner of this website"
       ],
       "responses": [
-        "This website was created by a group of TDTU Student including Neon and Aaron",
-        "Neon and Aaron is the owner of this website and this website is their graduation project"
+        "This website was created by a group of TDTU Student including Hoang Dat and Quoc Anh",
+        "Hoang Dat and Quoc Anh is the owner of this website and this website is their graduation project"
       ]
+    },
+    {
+      "tag": "place_order",
+      "patterns": [
+        "How can I place an order?",
+        "What's the process to order food?",
+        "Can you guide me on how to order?",
+        "How do I add items to my order?",
+        "Could you help me with ordering food?"
+      ],
+      "responses": [
+        "To place an order, simply browse the menu and add desired items to your cart. Proceed to checkout when you're ready.",
+        "You can order by selecting your preferred dishes from the menu and then proceeding to checkout.",
+        "Placing an order is easy – just pick your desired items from the menu and click on 'Add to Cart' for each dish.",
+        "When you find a dish you want, click 'Add to Cart' to include it in your order. After adding all your selections, proceed to checkout.",
+        "To order, browse through the menu, select the items you want, and click on 'Add to Cart' for each dish. Complete your order by checking out."
+      ]
+    },
+    {
+      "tag": "search_food",
+      "patterns": [
+        "How can I search for specific dishes?",
+        "Is there a search option for the menu?",
+        "How do I find a particular food item?",
+        "Can you assist me in finding a dish?",
+        "What's the way to locate food items?"
+      ],
+      "responses": [
+        "You can easily search for dishes by using the search bar on our home page or header. Type in keywords or dish names to find what you're looking for.",
+        "Feel free to use the search bar on the menu page to find specific dishes. Just enter keywords or names to quickly locate what you want.",
+        "Searching for dishes is convenient with our menu's search bar. Input relevant keywords or dish names to quickly find your desired items.",
+        "Use the search function on our menu page to quickly find specific dishes. Just type in keywords or names to see available options.",
+        "If you're looking for specific dishes, our menu's search bar is the way to go. Enter keywords or names to narrow down your choices."
+      ]
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "How do I log into my account?",
+        "Where is the login page?",
+        "What's the process to access my account?",
+        "Can you help me with logging in?",
+        "I'm having trouble with my login. What should I do?"
+      ],
+      "responses": [
+        "To log in, visit our website's login page and enter your registered email and password. If you're facing issues, you can request a password reset.",
+        "Logging into your account is done through our login page. Use your registered email and password to access your account.",
+        "Accessing your account is as simple as going to our login page and entering your registered email and password.",
+        "You can log in by heading to the login page and entering your registered email and password. If you're locked out, use the password reset option.",
+        "If you're having trouble logging in, make sure you're using the correct email and password. You can also request a password reset if needed."
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "How can I create a new account?",
+        "What's the procedure for registration?",
+        "Can you guide me through signing up?",
+        "I want to register. How do I do it?",
+        "What's the way to make a new account?"
+      ],
+      "responses": [
+        "To register, go to the registration page and provide the required information, including your email and a password. Once done, you'll have a new account.",
+        "Registering is easy. Head to our registration page and fill in your details, including email and password. You'll be registered in no time.",
+        "You can sign up by visiting our registration page and entering the necessary details, such as your email and a secure password.",
+        "Creating a new account is a breeze. Just visit our registration page, enter your email and a password, and you're all set.",
+        "To make a new account, simply go to our registration page, enter your email and a password, and your account will be ready."
+      ]
+    },
+    {
+      "tag": "edit_profile",
+      "patterns": [
+        "How do I update my profile details?",
+        "Can I change my account information?",
+        "What's the process to edit my profile?",
+        "Where can I modify my account settings?",
+        "I need to update my profile. How can I do that?"
+      ],
+      "responses": [
+        "You can edit your profile by logging in and going to your account settings. From there, you can update your personal information as needed.",
+        "Updating your profile is simple. Log in, navigate to your account settings, and you can modify your account information there.",
+        "If you want to edit your profile, just log into your account and access your account settings. From there, you can make any necessary changes.",
+        "Modifying your account information is straightforward. Log in and head to your account settings to update your profile details.",
+        "To update your profile, log in and find the account settings. From there, you can make changes to your personal information."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "How can I check the status of my order?",
+        "What's the way to know the progress of my order?",
+        "Can you provide information about my order status?",
+        "Where can I find updates on my order?",
+        "I'm curious about the status of my order. How can I check?"
+      ],
+      "responses": [
+        "To check your order status, log in to your account and go to the 'Order' section. You'll see real-time updates on your orders there.",
+        "You can monitor your order's progress by logging in and visiting the 'Order' section in your account. Updates will be displayed there.",
+        "Checking your order status is easy. Just log in, go to 'Order,' and you'll find the current status of all your orders.",
+        "You can find updates on your order by logging in and navigating to the 'Order' section. There, you'll see the latest status of your orders.",
+        "Curious about your order's status? Log in and check out the 'Order' section. All the updates about your orders will be available there."
+      ]
+    },
+    {
+      "tag": "manage",
+      "patterns": [
+        "How can I manage food categories?",
+        "What's the process to handle menu categories?",
+        "Can you guide me through managing categories?",
+        "I want to modify food categories. How can I do that?",
+        "Where can I make changes to menu categories?",
+        "How do I manage individual food items?",
+        "What's the process to handle menu items?",
+        "Can you guide me through managing food items?",
+        "I want to edit food items. How can I do that?",
+        "Where can I make changes to individual dishes?",
+        "How can I manage staff members?",
+        "What's the process to handle employees?",
+        "Can you guide me through managing staff?",
+        "I want to modify employee information. How can I do that?",
+        "Where can I make changes to staff accounts?"
+      ],
+      "responses": [
+        "Only administator can perform that and you do not have permissions. So sorry about that."
+      ]
+    },
+    {
+      "tag": "support_contact",
+      "patterns": [
+        "How can I get customer support?",
+        "What's the process to contact customer support?",
+        "Can you guide me on reaching customer support?",
+        "I need assistance. How can I contact support?",
+        "Where can I find help if I encounter issues?"
+      ],
+      "responses": [
+        "For customer support, visit the 'Contact Us' page on our website. You can find contact details and options to reach out for assistance.",
+        "Getting in touch with customer support is easy. Head to the 'Contact Us' page to find contact information and methods to seek help.",
+        "To contact customer support, go to the 'Contact Us' page. You'll find various ways to reach out for help with any concerns or issues.",
+        "If you require assistance, visit our 'Contact Us' page. There, you'll find information on how to contact our customer support team for help.",
+        "Encountering issues? No worries. Go to our 'Contact Us' page, where you'll find the necessary details to contact our support team for assistance."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "How can I cancel my order?",
+        "What's the process to cancel an order?",
+        "Can you guide me on canceling my order?",
+        "I need to cancel my order. How can I do that?",
+        "Where can I find the option to cancel an order?"
+      ],
+      "responses": [
+        "To cancel an order, log in to your account and go to the 'Order' section. You'll find an option to cancel orders that are eligible for cancellation. Please note that you only cancel the order have 'In progress' status.",
+        "Cancelling an order is possible by logging in and visiting the 'Order' section. Look for the cancel option next to orders that can be canceled. Please note that you only cancel the order have 'In progress' status.",
+        "If you wish to cancel an order, just log in, access the 'Order' section, and you'll see the option to cancel eligible orders. Please note that you only cancel the order have 'In progress' status.",
+        "To cancel an order, log in to your account, navigate to 'Order,' and you'll find the cancel option next to orders that can be canceled. Please note that you only cancel the order have 'In progress' status.",
+        "Looking to cancel an order? Log in, go to 'Order,' and you'll find the cancel option available for orders that can be canceled. Please note that you only cancel the order have 'In progress' status."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "How long does delivery usually take?",
+        "What's the average delivery time?",
+        "Can you provide information about delivery duration?",
+        "What's the usual time for order delivery?",
+        "I'm curious about the delivery time for orders."
+      ],
+      "responses": [
+        "Delivery times can vary based on your location and order volume. On average, deliveries take around 30 to 45 minutes from the time of confirmation.",
+        "The delivery time depends on factors like location and order load. Generally, you can expect deliveries to take about 30 to 45 minutes once your order is confirmed.",
+        "Delivery durations can differ, influenced by factors like location and order queue. As a general guideline, expect deliveries within 30 to 45 minutes after confirmation.",
+        "Order delivery times may vary due to location and demand. Typically, deliveries are completed within 30 to 45 minutes from the time of order confirmation.",
+        "Delivery timeframes are influenced by various factors. On average, anticipate a delivery time of 30 to 45 minutes after your order is confirmed."
+      ]
+    },
+    {
+      "tag": "menu_highlights",
+      "patterns": [
+        "What are the must-try dishes on the menu?",
+        "Can you recommend some popular items?",
+        "What are the highlights of the menu?",
+        "Which dishes do you suggest I try?",
+        "I'm looking for recommendations from the menu."
+      ],
+      "responses": [
+        "Our menu highlights include Gà Rán Bơ Tỏi, Kem Sữa Chua Dâu Tây, and Bánh Mì Hamburger. These dishes are customer favorites and definitely worth a try.",
+        "If you're looking for recommendations, give Gà Rán Bơ Tỏi, Kem Sữa Chua Dâu Tây, and Bánh Mì Hamburger a try. These dishes are loved by many.",
+        "We highly recommend trying Gà Rán Bơ Tỏi, Kem Sữa Chua Dâu Tây, and Bánh Mì Hamburger. These menu highlights are sure to satisfy your cravings.",
+        "For a delightful experience, consider trying Gà Rán Bơ Tỏi, Kem Sữa Chua Dâu Tây, and Bánh Mì Hamburger. These dishes stand out as menu favorites.",
+        "To truly savor our menu, indulge in Gà Rán Bơ Tỏi, Kem Sữa Chua Dâu Tây, and Bánh Mì Hamburger. These highlights promise a delicious dining experience."
+      ]
+    },
+    {
+      "tag": "food_safety",
+      "patterns": [
+        "How do you ensure food safety?",
+        "What measures are taken for food safety?",
+        "Can you provide information about food safety?",
+        "What's the approach to maintaining food safety?",
+        "I'm concerned about the safety of the food."
+      ],
+      "responses": [
+        "Food safety is a top priority. We follow strict hygiene practices, source ingredients from reputable suppliers, and ensure proper storage and preparation.",
+        "Rest assured, we prioritize food safety. Our practices include stringent hygiene standards, sourcing from trusted suppliers, and meticulous storage and preparation.",
+        "Maintaining food safety is our commitment. We adhere to rigorous hygiene standards, partner with reliable ingredient suppliers, and follow safe storage and preparation protocols.",
+        "Your safety is paramount. We maintain food safety through rigorous hygiene measures, sourcing ingredients from trustworthy suppliers, and adhering to proper storage and preparation guidelines.",
+        "We take your safety seriously. Our dedication to food safety involves rigorous hygiene, sourcing from trusted suppliers, and meticulous storage and preparation procedures."
+      ]
+    },
+    {
+      "tag": "change_password",
+      "patterns": [
+        "How can I change my password?",
+        "What's the process to update my password?",
+        "Can you guide me on changing my password?",
+        "I want to modify my password. How can I do that?",
+        "Where can I find the option to change my password?"
+      ],
+      "responses": [
+        "To change your password, log in to your account, go to the 'Account Settings' section, and select the 'Change Password' option. Follow the prompts to update.",
+        "Updating your password is simple. Log in, access the 'Account Settings' section, and choose 'Change Password.' Follow the steps to set a new password.",
+        "You can change your password by logging in, navigating to 'Account Settings,' and selecting the 'Change Password' option. Then, follow the provided instructions.",
+        "Modifying your password is easy. Log in to your account, find 'Account Settings,' and click on 'Change Password.' Follow the prompts to set a new password.",
+        "Need to update your password? Log in, go to 'Account Settings,' and choose 'Change Password.' Just follow the instructions to set a new password."
+      ]
+    },
+    {
+      "tag": "forgot_password",
+      "patterns": [
+        "What should I do if I forgot my password?",
+        "How can I reset my forgotten password?",
+        "Can you guide me on password recovery?",
+        "I can't remember my password. What's the procedure to reset it?",
+        "Where can I find the option to recover my forgotten password?"
+      ],
+      "responses": [
+        "If you've forgotten your password, don't worry. On the login page, click 'Forgot Password' and follow the steps to reset your password via email.",
+        "No problem if you forgot your password. Simply go to the login page, click 'Forgot Password,' and you'll receive instructions via email to reset it.",
+        "Password slip your mind? No problem. Visit the login page, click 'Forgot Password,' and we'll send you an email with instructions on resetting it.",
+        "Forgot your password? No worries. Head to the login page, click 'Forgot Password,' and we'll guide you through resetting it via email.",
+        "If your password slipped your memory, don't worry. Go to the login page, click 'Forgot Password,' and we'll help you reset it through email."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay for my order?",
+        "Can you provide information about payment options?",
+        "What are the available payment methods?",
+        "I'm curious about the accepted payment modes."
+      ],
+      "responses": [
+        "We accept in only CODE payment methods. We will develop in the near future. Let's subcribe us ^^"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "Tell me about quantum physics.",
+        "Explain the theory of relativity.",
+        "What is the meaning of life?",
+        "How does black hole work?",
+        "Can you explain string theory?",
+        "What is the origin of the universe?",
+        "Explain the concept of time dilation.",
+        "Tell me about the Big Bang theory.",
+        "How do black holes form?",
+        "What is the nature of dark matter?",
+        "Explain the concept of parallel universes.",
+        "Can you clarify the theory of multiple dimensions?",
+        "Tell me about the concept of free will.",
+        "What is the nature of consciousness?",
+        "Explain the concept of infinity.",
+        "How does the human brain store memories?",
+        "Tell me about the nature of dreams.",
+        "What is the purpose of human emotions?",
+        "Explain the phenomenon of deja vu.",
+        "How do animals communicate with each other?"
+      ],
+      "responses": ["I'm sorry, this topic is beyond my current knowledge."]
     }
   ]
 }
